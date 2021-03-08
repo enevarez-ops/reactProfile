@@ -18,15 +18,15 @@ const Nav = () => {
 
   return (
     <Breadcrumbs aria-label="breadcrumb">
-      <Link color="inherit" to="/projects" onClick={renderPortfolio}>
+      <Link color="inherit" href="/projects" onClick={renderPortfolio}>
         Projects
       </Link>
-      <Link color="inherit" to="/" onClick={renderHome}>
+      <Link color="inherit" href="/" onClick={renderHome}>
         Home
       </Link>
       <Link
         color="inherit"
-        to="/resume"
+        href="/resume"
         onClick={renderResume}
         aria-current="page"
       >

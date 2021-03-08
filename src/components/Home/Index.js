@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  MDBMask,
-  MDBRow,
-  MDBCol,
-  MDBBtn,
-  MDBView,
-  MDBContainer,
-  MDBAnimation
-} from "mdbreact";
+
 
 class Home extends React.Component {
   linkedIn = () => {
@@ -19,20 +11,11 @@ class Home extends React.Component {
   render() {
     return (
       <div id="apppage">
-        <MDBView>
-          <MDBMask className="d-flex justify-content-center align-items-center gradient">
-            <MDBContainer>
-              <MDBRow>
-                <MDBCol
-                  md="6"
-                  className="white-text text-center text-md-left mt-xl-5 mb-5"
-                >
-                  <MDBAnimation type="fadeInLeft" delay=".3s">
-                    <h1 className="h1-responsive font-weight-bold mt-sm-5">
-                      About Me:
-                    </h1>
-                    <hr className="hr-light" />
-                    <h6 className="mb-4">
+
+        <img src="https://i.imgur.com/xY2KyLI.jpg"/>
+
+
+                <h6>
                       Efrain Nevarez is a licensed Paramedic born and raised in a North Suburb of Chicago, Illinois. Coming
                 from a Mexican family and first
                 generation American. Looking to change in career and focus on the future of technology took the
@@ -46,25 +29,7 @@ class Home extends React.Component {
                 looking for the
                 next recipe to master and prove to his wife that he is Chef Gordon Ramsey incarnate.
                     </h6>
-                    <MDBBtn color="white" onClick={this.linkedIn}>LinkedIn</MDBBtn>
-                    <MDBBtn outline color="white" onClick={this.gitHub}>
-                      Github
-                    </MDBBtn>
-                  </MDBAnimation>
-                </MDBCol>
-                <MDBCol md="6" xl="5" className="mt-xl-5">
-                  <MDBAnimation type="fadeInRight" delay=".3s">
-                    <img
-                      src="https://i.imgur.com/xY2KyLI.jpg"
-                      alt=""
-                      className="img-fluid z-depth-4 rounded"
-                    />
-                  </MDBAnimation>
-                </MDBCol>
-              </MDBRow>
-            </MDBContainer>
-          </MDBMask>
-        </MDBView>
+            
       </div>
     );
   }
