@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './components/Nav'
 import Resume from './components/Resume'
 import Footer from './components/Footer'
+import Home from './components/Home'
 
 const App = () => {
   document.title = "Efrain Nevarez"
@@ -11,6 +12,9 @@ const App = () => {
 
     <>
       <Nav />
+
+      <Home />
+
       <Footer />
 
 
