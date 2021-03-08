@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,yEAA+E,CAC/E,WACF","file":"main.f9ea53d6.chunk.css","sourcesContent":["body{\r\n  background-image: linear-gradient(#A6E1FA,  #0E6BA8  #0A2472, #001C55, #00072D);\r\n  height: 100%;\r\n}"]}

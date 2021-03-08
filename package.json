@@ -12,11 +12,14 @@
     "react-router-hash-link": "^1.2.2",
     "react-scripts": "3.4.1"
   },
+  "homepage": "https://enevarez-ops.github.io/reactProfile",
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "cd client && CI= npm run build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
