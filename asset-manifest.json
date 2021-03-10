@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/reactProfile/static/css/main.f9ea53d6.chunk.css",
+    "main.js": "/reactProfile/static/js/main.abd6c596.chunk.js",
+    "main.js.map": "/reactProfile/static/js/main.abd6c596.chunk.js.map",
+    "runtime-main.js": "/reactProfile/static/js/runtime-main.91a972aa.js",
+    "runtime-main.js.map": "/reactProfile/static/js/runtime-main.91a972aa.js.map",
+    "static/js/2.f9dedb50.chunk.js": "/reactProfile/static/js/2.f9dedb50.chunk.js",
+    "static/js/2.f9dedb50.chunk.js.map": "/reactProfile/static/js/2.f9dedb50.chunk.js.map",
+    "690d8fb542ed66f8526a.worker.js": "/reactProfile/690d8fb542ed66f8526a.worker.js",
+    "690d8fb542ed66f8526a.worker.js.LICENSE.txt": "/reactProfile/690d8fb542ed66f8526a.worker.js.LICENSE.txt",
+    "690d8fb542ed66f8526a.worker.js.map": "/reactProfile/690d8fb542ed66f8526a.worker.js.map",
+    "index.html": "/reactProfile/index.html",
+    "precache-manifest.3dfb2a0093cf7760093b02846666a36c.js": "/reactProfile/precache-manifest.3dfb2a0093cf7760093b02846666a36c.js",
+    "service-worker.js": "/reactProfile/service-worker.js",
+    "static/css/main.f9ea53d6.chunk.css.map": "/reactProfile/static/css/main.f9ea53d6.chunk.css.map",
+    "static/js/2.f9dedb50.chunk.js.LICENSE.txt": "/reactProfile/static/js/2.f9dedb50.chunk.js.LICENSE.txt",
+    "static/media/EFRAIN_NEVAREZJR_Resume_Final.PDF": "/reactProfile/static/media/EFRAIN_NEVAREZJR_Resume_Final.37a997a2.PDF"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91a972aa.js",
+    "static/js/2.f9dedb50.chunk.js",
+    "static/css/main.f9ea53d6.chunk.css",
+    "static/js/main.abd6c596.chunk.js"
+  ]
+}
